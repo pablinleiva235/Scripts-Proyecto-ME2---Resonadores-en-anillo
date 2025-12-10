@@ -132,7 +132,7 @@ Al correr el script, se generara un grafico con los resultados del calculo del e
 
 
 ## 2.5 - Script calculo epsilon del material SUT
-Hay 4 scripts, para los resonadores de 1GHZ y 1.5GHZ de FR4 y Rogers
+Hay 4 scripts, para los resonadores de 1GHZ y 1.5GHZ de FR4 y Rogers.
 En el ejemplo esta hecho para el teflon
 
 En las lineas 17, 18, 20 y 21:
@@ -171,3 +171,5 @@ Error Porcentual: 5.67%
 Y se abre una ventana con un la recta generada por el metodo variacional que utiliza esta tecnica de calculo, indicando con un punto rojo el valor final obtenido del epsilon relativo del material a medir 
 
 <img width="800" height="500" alt="Figure_1" src="https://github.com/user-attachments/assets/556f595e-1547-4f01-8bb6-0c8a504c5795" />
+
+En caso de desconocer el E_2_REF se deberian ir probando valores hasta que el punto quede dentro de la recta lo mas centrado posible, hay cierto rango en el que esto sucede, fuera de este rango el punto queda por fuera de la recta
