@@ -63,7 +63,7 @@ except FileNotFoundError:
     print("ERROR: No se encontró 'S21-FR4-1G.s2p'.")
     exit()
 ```
-El nombre de las variables quedo igual que en el del script 2.1, pero se deben reemplazar el nombre de los archivos que se cargan en  ntwk_rogers_simulado y en ntwk_fr4_simulado por los archivos .s2p de medicion con el material dielectrico que se haya colocado encima de los resonadores. Los otros 2 son los .s2p de los resonadores sin nada encima
+El nombre de las variables quedo igual que en el del script 2.1, pero se deben reemplazar el nombre de los archivos que se cargan en  ntwk_rogers_simulado y en ntwk_fr4_simulado por los archivos .s2p de medicion con el material dielectrico que se haya colocado encima de los resonadores. Los otros 2 son los .s2p de los resonadores sin nada encima.
 El grafico generado es como el siguiente:
 
 <img width="1400" height="600" alt="Figure_3" src="https://github.com/user-attachments/assets/377c0b90-7851-4001-bfde-1efe77a1388d" />
